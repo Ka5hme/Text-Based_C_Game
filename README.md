@@ -13,3 +13,20 @@ There are two kinds of other creatures in the maze: escapees and guards. Every g
 - if there are more escapees than guards, any guards whose targets are in the group of escapees start following the escapees in the hope that they'll encounter more guards. Other guards do not follow.
 
 The goal of the game is for the PC to reach a specific door, which is the exit.
+
+#
+Example Inputs:
+
+3 2 1 1
+
+0 1 1
+
+0 2 0
+
+1 1
+
+0 0 0
+
+1 0
+
+1
