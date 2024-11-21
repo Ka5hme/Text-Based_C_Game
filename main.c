@@ -490,7 +490,7 @@ void freeEverythingAndEndGame(Player *playerPtr, Door* doorPtr, Key *keyPtr, Gua
     free(keyPtr);
     free(guardPtr);
     free(escapeePtr);
-    free(playerPtr);
+
 
     printf("\nSAYONARA!!!\n");
     exit(0);
